@@ -1,22 +1,39 @@
+<div align="center">
+
 # PingMed
 
-A Flutter medication reminder app.
+**A Flutter medication reminder app.**
 
-> **Status:** early-stage scaffold. The app shell and tooling are in place; the
-> reminder feature is not implemented yet.
+[![CI](https://github.com/Zahrexxs/PingMedApp/actions/workflows/ci.yml/badge.svg)](https://github.com/Zahrexxs/PingMedApp/actions/workflows/ci.yml)
+![Flutter](https://img.shields.io/badge/flutter-stable-02569B?logo=flutter&logoColor=white)
+![Dart 3.5+](https://img.shields.io/badge/dart-3.5%2B-0175C2?logo=dart&logoColor=white)
+![Status](https://img.shields.io/badge/status-early%20scaffold-yellow)
 
-## Requirements
+</div>
 
-- Flutter 3.24+ (Dart 3.5+)
-- Android Studio / Xcode for device builds
+---
 
-## Getting started
+> **Status:** early-stage scaffold. The app shell, dependencies and CI are in
+> place; the reminder feature is not implemented yet.
+
+## Contents
+
+- [Quick start](#quick-start)
+- [Project structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Checks](#checks)
+- [Roadmap](#roadmap)
+- [Notes](#notes)
+
+## Quick start
+
+**Requirements:** Flutter 3.24+ (Dart 3.5+), plus Android Studio or Xcode for device
+builds.
 
 ```bash
 flutter pub get
 
-# Platform folders (android/, ios/, web/) are not committed.
-# Generate them once for the targets you need:
+# Platform folders are not committed. Generate them once for your targets:
 flutter create . --platforms=android,ios,web
 
 flutter run
@@ -25,9 +42,9 @@ flutter run
 ## Project structure
 
 ```
-lib/main.dart          # App entry point and home screen
-assets/                # Bundled assets (images, Lottie animations)
-test/widget_test.dart  # Widget smoke test
+lib/main.dart          App entry point and home screen
+assets/                Bundled assets (images, Lottie animations)
+test/widget_test.dart  Widget smoke test
 ```
 
 ## Dependencies
@@ -50,6 +67,15 @@ flutter test
 ```
 
 CI runs both on every push and pull request.
+
+## Roadmap
+
+- [x] Runnable app shell
+- [x] CI (`pub get`, `analyze`, `test`)
+- [ ] Add and edit medication schedules
+- [ ] Local notifications
+- [ ] Persist schedules with `shared_preferences`
+- [ ] Calendar view of upcoming doses
 
 ## Notes
 
