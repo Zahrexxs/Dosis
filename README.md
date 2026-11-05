@@ -8,6 +8,7 @@
 ![Flutter](https://img.shields.io/badge/flutter-stable-02569B?logo=flutter&logoColor=white)
 ![Dart 3.5+](https://img.shields.io/badge/dart-3.5%2B-0175C2?logo=dart&logoColor=white)
 ![Status](https://img.shields.io/badge/status-early%20scaffold-yellow)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
 </div>
 
@@ -24,6 +25,7 @@
 - [Checks](#checks)
 - [Roadmap](#roadmap)
 - [Notes](#notes)
+- [License](#license)
 
 ## Quick start
 
@@ -82,3 +84,7 @@ CI runs both on every push and pull request.
 - `rating_dialogue` was removed from `pubspec.yaml`: the package is no longer
   published on pub.dev (HTTP 404), which made `flutter pub get` fail.
 - The Dart package name is `ping_med_app`; imports use `package:ping_med_app/...`.
+
+## License
+
+[MIT](./LICENSE) © 2026 Muhammad Naufal Azzahri
