@@ -1,11 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ping_med_app/main.dart';
+import 'package:dosis/main.dart';
 
 void main() {
   testWidgets('renders the home screen', (tester) async {
-    await tester.pumpWidget(const PingMedApp());
+    await tester.pumpWidget(const DosisApp());
 
-    expect(find.text('PingMed'), findsOneWidget);
+    expect(find.text('Dosis'), findsOneWidget);
     expect(find.text('No reminders yet'), findsOneWidget);
   });
 }
