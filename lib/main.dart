@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const PingMedApp());
+  runApp(const DosisApp());
 }
 
-class PingMedApp extends StatelessWidget {
-  const PingMedApp({super.key});
+class DosisApp extends StatelessWidget {
+  const DosisApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PingMed',
+      title: 'Dosis',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorSchemeSeed: Colors.teal,
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('PingMed')),
+      appBar: AppBar(title: const Text('Dosis')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: const [

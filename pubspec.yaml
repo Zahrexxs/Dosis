@@ -1,5 +1,5 @@
-name: ping_med_app
-description: "PingMed - a Flutter medication reminder app."
+name: dosis
+description: "Dosis - a Flutter medication reminder app."
 publish_to: 'none'
 
 version: 1.0.0+1
